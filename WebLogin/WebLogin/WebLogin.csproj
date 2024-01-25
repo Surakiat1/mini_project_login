@@ -233,7 +233,11 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
+<<<<<<< HEAD
     <Content Include="Shopui.aspx" />
+=======
+    <Content Include="stock.aspx" />
+>>>>>>> c5fcf1c1d837a9160a69b71bdfa17f7b33115c8f
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
@@ -282,12 +286,21 @@
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="Shopui.aspx.cs">
       <DependentUpon>Shopui.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Shopui.aspx.designer.cs">
       <DependentUpon>Shopui.aspx</DependentUpon>
+=======
+    <Compile Include="stock.aspx.cs">
+      <DependentUpon>stock.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="stock.aspx.designer.cs">
+      <DependentUpon>stock.aspx</DependentUpon>
+>>>>>>> c5fcf1c1d837a9160a69b71bdfa17f7b33115c8f
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
